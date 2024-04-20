@@ -1,0 +1,279 @@
+:root {
+    font-family: 'Orelega One', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 64px;
+    color: #502314;
+}
+
+h2 {
+    font-size: 48px;
+    color: #613829;
+}
+
+h3 {
+    font-size: 24px;
+    color: #613829;
+}
+
+th {
+    color: #613829;
+    font-size: 24px;
+    padding: 20px 80px 20px 0;
+}
+
+td {
+    color: sienna;
+    font-size: 18px;
+    padding: 0 80px 0 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background-color: #F5EBDC;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+
+    color: #613829;
+}
+
+p {
+    color: sienna;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    background-color: #502314;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.30);
+
+    padding: 15px 0 15px 0;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+
+    font-size: 24px;
+}
+
+.menu {
+    padding: 60px 0 0 0;
+}
+
+
+.cat {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    padding: 60px 0 0 0;
+}
+
+.card_content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px 0 60px 0;
+}
+
+.card {
+    width: 360px; 
+    
+    border-radius: 20px; 
+    background-color: #FCF6EC;
+}
+
+
+.card img {
+    margin: 50px 0 20px 0;
+}
+
+.card-info {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 0 22px 20px 22px; 
+    align-self: flex-end;
+}
+
+
+
+.card-price {
+    color: #613829;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-price {
+    font-size: 29px;
+}
+
+.card-button { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #FF6E20;
+    color: #fff; 
+    border-radius: 20px; 
+    font-size: 19px;
+}
+
+.img_burger {
+    width: 200px;
+    height: 120px;
+}
+
+.img_coffee {
+    width: 160px;
+    height: 200px;
+}
+
+.img_pizza {
+    width: 200px;
+    height: 200px;
+}
+
+.content h2 {
+    padding-left: 320px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.order {
+    padding: 60px 310px 0 310px;
+}
+
+.vector {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+table {
+    margin-left: 310px;
+}
+
+.slider-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.img{
+    display: none;
+}
+
+.curry{
+    display: block;
+}
+
+.slider-img{
+    width: 900px;
+}
+
+.slider-button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    transition: 0.7s all;
+    border-radius: 6px;
+}
+
+.slider-button:hover{
+    background: greenyellow;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.slider-button:active{
+    background: red;
+}
+
+.slider-arrow{
+    width: 40px;
+    height: 40px;
+}
+
+.left-arrow{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
